@@ -1,0 +1,51 @@
+#2-Dars 12.05.25           
+
+                   Machine Learning types:
+1. Supervised
+2.Unsupervised
+3.Reinforcement
+  
+Supervised --> Modelga kirish va unga mos javob beriladi. 
+Model shu asosda o‘rgatiladi, keyin yangi ma’lumot kelganda, qanday javob bo‘lishini bashorat qiladi.
+Yani model yangi ma’lumotlar uchun xulosa qiladi.
+
+Unsupervised --> Modelga faqat kirish beriladi, javob yo‘q. 
+Model o‘zi ma’lumotlar orasidagi munosabatlarni aniqlashga guruhlashga harakat qiladi tahlil qiladi..
+ 
+Reinforcement --> 
+  
+-------------------------------------------------------------------------------------------------------
+                                   Python Malumot turlari
+ Int (integer) --> 1, 100, -999, -500, (100.0=100)   (Butun sonlar)
+ Float --> 1.9, 23.5, 100.5, -999.9, -500.5   (Kasr sonlar)
+ Str (string) -->'Ok', 'Hello', 'Python', "d" '123', "!"   (Matnli ma’lumotlar)
+ Boolean--> True, False   (Tog'ri yo Notog'riligini aniqlash, Faol yoki Nofaol holat, rost-yolg‘on,)
+   
+                             Math Operation
+
+
+Qo‘shish	             +	            Sonlarni qo‘shadi	5 + 3	
+Ayirish	             -   	            Sonlarni ayiradi	10 - 4	
+Ko‘paytirish           *	            Sonlarni ko‘paytiradi	2 * 3	
+Bo‘lish	             /	            Kasr ko‘rinishida bo‘ladi	8 / 2=4	
+Butun bo‘lish        //	            Bo‘linmaning butun qismini oladi	9 // 2= 4
+Qoldiqli bo‘lish	%	            Bo‘lishdan qolgan qoldiqni beradi	9 % 2= 1
+Darajaga ko‘tarish	**	            Sonni darajaga ko‘taradi	2 ** 3= 8
+  
+     
+                          Logic Operations (Mantiqiy amallar)
+
+  ==, !=, <, >, >=, <=, and, or.  (True, False natijalar olinadi)
+== -> ikki tomonni aynan tengligini anglatadi.
+!= -> ikki tomonni teng emasligini anglatadi.
+and – Va (ikkalasi ham True bo‘lsa, natija True)
+or – Yoki (birortasi True bo‘lsa, natija True)
+
+                 Logic Operations qayerda ishlatiladi?
+
+- if, while, for bloklarida shartlar qo‘yish
+- Login qilish (username va password tekshirish)
+- Formalarni tekshirish (ism bo‘sh emasmi?)
+- Sensor yoki holat nazorati
+
+

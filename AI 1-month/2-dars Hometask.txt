@@ -1,0 +1,36 @@
+         ML turlari
+1-savol: Jadvaldagi muammo nima qatoridagi uy narxini predict qilish misoliga o’xshash 2 ta misol toping 
+          va misoldagidek kerakli farazlar(feature) ro’yhatini tuzing.
+
+1) Talabaning Grand olishini bashorat qilish:
+
+       | Input                                                                     | Output
+       | Test bali:90, Attestat o’rtacha bali:4.9, Activligi:Yuqori         | Grant oladimi? Ha/Yo'q
+
+2) Mashina narxini bashorat qilish:
+
+      | Input (Kirish)                                                             | Output (Chiqish)
+      | Marka: BMW, Yili: 2020, Yurgani: 20000km                        |Narxi ? (Won/$)  
+
+
+2-savol: 1- savolda tuzilgan 2 ta misol uchun muammoni yechishdan maqsadni yozing
+1) Muammoni yechishdan maqsad - bu model asosida talabalarni tanlashda, grant imkoniyatlarini baholashda qaror qabul qilish. 
+2) Muammoni yechishdan maqsad - Mashinaning texnik xususiyatlari asosida uning taxminiy bozor narxini aniqlash.
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+1-savol: Supervised ML ga oid 2 ta misol toping va o’zingiz misollardan berilganidek jadval to’ldiring
+ 1) Bank mijozning kredit olishini bashorat qilish:
+          | Input                                                                                 | Output
+          | Yoshi:30, Ish tajribasi:7yil, Daromadi:15000\, Kredit tarixi:yaxshi          | Kredit mumkinmi? Ha
+
+2)Elektr energiyasini sarfini bashorat qilish:
+          | Input                                                                     | Output
+          | Uy soni, Aholi soni, Fasl, Texnikalar,...                              | Oylik elektr sarf: 300kwh
+
+
+1-savol: Unsupervised Ml ga oid 2 ta misol toping va o’zingiz misollardan berilganidek jadval to’ldiring
+adi.
+1)Model - Keltirilgan birnechta rasmlarda oxshashlik yoki farqni aniqlab guruhlaydi. 
+2)100 ta odam haqida malumot keltirilgan bolsa model shularni qanaqadir toifaga bo'lib masalan yoshiga nisbatan,
+ yoki boyiga nisbatan  guruhlash kerak bo'lsa model shu malumotlar asosida tahlil qilib rezultat chiqaradi. 

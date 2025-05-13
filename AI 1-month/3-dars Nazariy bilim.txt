@@ -1,0 +1,53 @@
+3-Dars  13.05.25
+ 
+Supervised ML yordamida quyidagi muammo/topshiriqlarni bajarsaishimiz mumkin:
+-koronani aniqlashda --- Yes/No -> Classification      --> javoblar chekli
+-email soxtami yoqmi--- Yes/No -> Classification       --> javoblar chekli
+
+-ob-havoni aniqlashda--- 30'C, 24'C -> Regression    -->javoblar cheksiz bo'lishi mumkin
+-uy narxini aniqlashda--- 50K, 100K -> Regression     -->javoblar cheksiz bo'lishi mumkin
+
+
+
+                    Classification Machine Learning types:
+1) single(binary) --> 2 ta aniq javob -> Ha/Yo'q , Yes/No
+2) multi-class 2,3 yoki undan  ortiq javob bo;'lishi mumkin
+
+                            Regression Machine Learning
+-Bu usulda model sonli (continuous) qiymatlarni bashorat qiladi.
+ Natijalar raqamli qiymatlar ko‘rinishida bo‘ladi.
+-
+
+                                  ML Project ketma ketligi
+
+1)Data Collection (Malumot toplash)
+-So'rovnoma
+-Web sitelardan olish(web scraping)
+-Tayyor datasetlar (Github, Kaggle) (csv file download)
+-Mijoz
+
+2)Data bn tanishuv
+-Fayl va datasetni bir xil joyga qo'yish(yonma yon)
+-Pandas install
+-Pandas import
+-Datani o'ng tomonga olish
+-head/tail
+-Input/Output
+-
+
+
+                                  Machine Learning Project ketma ketligi (1)
+
+- Data Preprossing( Malumot Tayyorlash)
+-Model selection(Model Tnalash)
+-Model traning(datani o'qitish) --70%
+-Model prediction(bashorat qilish)
+-Model evaluation(Baxolash)
+-
+
+
+
+
+                                                    Python  (Conditions:if / else)
+-Python’da conditions (shart operatorlari ) – bu kodning turli holatlarga qarab turlicha ishlashini ta’minlaydi.
+- if, elif, else kalit so‘zlari ishlatiladi.

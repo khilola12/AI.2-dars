@@ -1,0 +1,156 @@
+#2-Dars 12.05.25           
+
+                   Machine Learning types:
+1. Supervised
+2.Unsupervised
+3.Reinforcement
+  
+Supervised --> Modelga kirish va unga mos javob beriladi. 
+Model shu asosda o‘rgatiladi, keyin yangi ma’lumot kelganda, qanday javob bo‘lishini bashorat qiladi.
+Yani model yangi ma’lumotlar uchun xulosa qiladi.
+
+Unsupervised --> Modelga faqat kirish beriladi, javob yo‘q. 
+Model o‘zi ma’lumotlar orasidagi munosabatlarni aniqlashga guruhlashga harakat qiladi tahlil qiladi..
+ 
+Reinforcement --> 
+  
+-------------------------------------------------------------------------------------------------------
+                                   Python Malumot turlari
+ Int (integer) --> 1, 100, -999, -500, (100.0=100)   (Butun sonlar)
+ Float --> 1.9, 23.5, 100.5, -999.9, -500.5   (Kasr sonlar)
+ Str (string) -->'Ok', 'Hello', 'Python', "d" '123', "!"   (Matnli ma’lumotlar)
+ Boolean--> True, False   (Tog'ri yo Notog'riligini aniqlash, Faol yoki Nofaol holat, rost-yolg‘on,)
+   
+                             Math Operation
+
+
+Qo‘shish	             +	            Sonlarni qo‘shadi	5 + 3	
+Ayirish	             -   	            Sonlarni ayiradi	10 - 4	
+Ko‘paytirish           *	            Sonlarni ko‘paytiradi	2 * 3	
+Bo‘lish	             /	            Kasr ko‘rinishida bo‘ladi	8 / 2=4	
+Butun bo‘lish        //	            Bo‘linmaning butun qismini oladi	9 // 2= 4
+Qoldiqli bo‘lish	%	            Bo‘lishdan qolgan qoldiqni beradi	9 % 2= 1
+Darajaga ko‘tarish	**	            Sonni darajaga ko‘taradi	2 ** 3= 8
+  
+     
+                          Logic Operations (Mantiqiy amallar)
+
+  ==, !=, <, >, >=, <=, and, or.  (True, False natijalar olinadi)
+== -> ikki tomonni aynan tengligini anglatadi.
+!= -> ikki tomonni teng emasligini anglatadi.
+and – Va (ikkalasi ham True bo‘lsa, natija True)
+or – Yoki (birortasi True bo‘lsa, natija True)
+
+                 Logic Operations qayerda ishlatiladi?
+
+- if, while, for bloklarida shartlar qo‘yish
+- Login qilish (username va password tekshirish)
+- Formalarni tekshirish (ism bo‘sh emasmi?)
+- Sensor yoki holat nazorati
+
+
+---------------------------------------------------------------------------------------------------------------
+
+#3-Dars  13.05.25
+ 
+Supervised ML yordamida quyidagi muammo/topshiriqlarni bajarsaishimiz mumkin:
+-koronani aniqlashda --- Yes/No -> Classification      --> javoblar chekli
+-email soxtami yoqmi--- Yes/No -> Classification       --> javoblar chekli
+
+-ob-havoni aniqlashda--- 30'C, 24'C -> Regression    -->javoblar cheksiz bo'lishi mumkin
+-uy narxini aniqlashda--- 50K, 100K -> Regression     -->javoblar cheksiz bo'lishi mumkin
+
+
+
+                    Classification Supervised Machine Learning types:
+1) single(binary) --> 2 ta aniq javob -> Ha/Yo'q , Yes/No
+2) multi-class 2,3 yoki undan  ortiq javob bo;'lishi mumkin
+
+                            Regression Machine Learning
+-Bu usulda model sonli (continuous) qiymatlarni bashorat qiladi.
+ Natijalar raqamli qiymatlar ko‘rinishida bo‘ladi.
+-
+
+                                  ML Project ketma ketligi
+
+1)Data Collection (Malumot toplash)
+-So'rovnoma
+-Web sitelardan olish(web scraping)
+-Tayyor datasetlar (Github, Kaggle) (csv file download)
+-Mijoz
+
+2)Data bn tanishuv
+-Fayl va datasetni bir xil joyga qo'yish(yonma yon)
+-Pandas install
+-Pandas import
+-Datani o'ng tomonga olish
+-head/tail
+-Input/Output
+-
+
+3-Data Preprossing( Malumot Tayyorlash)
+4-Model selection(Model Tnalash)
+5-Model traning(datani o'qitish) --70%
+6-Model prediction(bashorat qilish)
+7-Model evaluation(Baxolash)
+8-Monitoring
+
+
+
+
+                                                    Python  (Conditions:if / else)
+-Python’da conditions (shart operatorlari ) – bu kodning turli holatlarga qarab turlicha ishlashini ta’minlaydi.
+- if, elif, else kalit so‘zlari ishlatiladi.
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+# 4-Dars  22052025 
+            
+                                   Machine Learning Libraries
+-NumPy -->Matematik operatsiyalar uchun,tatistik va ilmiy hisoblashlar uchun.
+
+-Pandas -->Ma’lumotlar bilan ishlash (CSV, Excel, DB) uchun. (ML uchun yordamchi kutubxona)
+Afzalliklari:
+DataFrame obyektlari bilan ishlash oson, malumotlarni tozalash, transformatsiya qilish qulay,
+Malumotlarni kirgizish
+Malumotlar bn tanishish
+Malumotlarni o'zgartirish,tozalash
+Malumotlarni tahlil qilish.
+
+-Matplotlib & -Seaborn -->Vizualizatsiya kutubxonalari. Grafiklar, histogramlar, correlation heatmap lar chizish.
+
+-Scikit-learn -->  Klassifikatsiya, regressiya, klasterlash, dimensionality reduction, model baholash.
+ML o'qitish, project bosqichlarini bajarish. (Eng mashhur ML kutubxonalardan biri.)
+
+-Kutubxonalar(doc)
+
+                                     DATA
+Data — bu real dunyodan to‘plangan faktlar, raqamlar, o‘lchovlar yoki kuzatishlardir.
+Machine Learning algoritmlari bu ma’lumotlarga asoslanib o‘rganadi, xulosalar chiqaradi va bashorat qiladi. 
+-Raqamlar (yaş, baho, oylik), 
+-Matn (yangiliklar, e-mail), 
+-Rasm (yuz tasviri),
+-Audio yoki video (nutq, musiqalar)
+ 
+        Datalar bilan ishlashda axamiyat berish kerak bolgan jihatlar:                 
+-Structured (tartiblangan)
+-To'liq 
+-Katta
+-Soxaga aloqador
+-Ishonchli
+-(etiketlik me'yorlariga javob berishi)
+
+                 Data Preprocessing (1-Bo'lim)
+Tushirib qoldirilgan qiymatlar bilan ishlash:
+     --> Missing values (To'ldirish):
+              1-mean,  (O‘rtacha arifmetik qiymat  bilan to‘ldirish)     -->   df['Age'].fillna(df['Age'].mean(),inplace=True)    
+              2-mode, (Eng ko‘p uchraydigan qiymat bn  to‘ldirish)   -->   df['Age'].fillna(df['Age'].mode()[0],inplace=True)  
+              3-median, (O"rtadagi qiymat bn to;ldirish)                 -->   df['Age'].fillna(df['Age'].median(),inplace=True)  
+              4-fixed,  (o'zimiz istagan qiymat bilan to‘ldirish)          -->       
+              5-drop. (Birxil qatorlarni yoki o'xshash ustun(column)ni Tashlab yuborish orqali)  -->   df.drop('Embarked',axis=1,inplace=True)
+                                                                                                 (-> axis=1 - Ustun bo‘yicha (column)  o‘chirish uchun, axis=0 - Qator bo‘yicha (index) o‘chirish uchun)
+
+      -->Unknown elements (Tozalash) ( %, &, mixed, , ;, ^^ (raqamli bo'lmagan qiymatlardan tozalash)) 
+      -->Duplicated bo'lgan qiymatlar bn ishlash (rows, columns)
+            
+                              
